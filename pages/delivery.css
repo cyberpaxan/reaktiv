@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/assets/Risunok1.jpg);
+}
+
+.content h1 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+.content li {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+}/*# sourceMappingURL=delivery.css.map */
