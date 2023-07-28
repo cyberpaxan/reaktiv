@@ -22,7 +22,9 @@
         <title>Доставка</title>
     </head>
     <body class="d-flex flex-column vh-100">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav
+            class="navbar navbar-expand-xxl bg-body-tertiary d-flex align-items-center"
+        >
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html">Компонент-Реактив</a>
                 <button
@@ -38,18 +40,85 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a
-                            class="nav-link active"
-                            aria-current="page"
-                            href="/pages/catalog.html"
-                            >Каталог</a
-                        >
-                        <a class="nav-link" href="/pages/delivery.html"
+                        <a class="nav-link active" href="/pages/delivery.html"
                             >Доставка</a
                         >
-                        <a class="nav-link" href="/pages/about.html"
+                        <a class="nav-link active" href="/pages/about.html"
                             >О компании</a
                         >
+                        <a class="nav-link active" href="/pages/contacts.html"
+                            >Контакты</a
+                        >
+                        <a class="nav-link" href="/pages/subpages/orgrast.html"
+                            >Органические растворители</a
+                        >
+
+                        <a class="nav-link" href="/pages/subpages/oxide.html"
+                            >Оксиды</a
+                        >
+
+                        <a
+                            class="nav-link"
+                            href="/pages/subpages/metalelem.html"
+                            >Металлы и элементы
+                        </a>
+
+                        <div class="dropdown">
+                            <a
+                                class="nav-link dropdown-toggle border-0"
+                                data-bs-toggle="dropdown"
+                                href="javascript:void(0)"
+                                aria-expanded="false"
+                            >
+                                Кислоты
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="/pages/subpages/kislneorg.html"
+                                        >Неорганические</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="/pages/subpages/kislorg.html"
+                                        >Органические</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown">
+                            <a
+                                class="nav-link dropdown-toggle border-0"
+                                data-bs-toggle="dropdown"
+                                href="javascript:void(0)"
+                                aria-expanded="false"
+                            >
+                                Соли и соединения
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="/pages/subpages/solineorg.html"
+                                        >Неорганические</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="/pages/subpages/soliorg.html"
+                                        >Органические</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-danger">
+                            Скачать каталог
+                        </button>
                     </div>
                 </div>
             </div>
@@ -58,24 +127,207 @@
         <div class="row mx-2 my-3 content">
             <div class="col-md-8 mx-auto">
                 <div>
-                    <h1 class="m-3"><b>Доставка</b></h1>
+                    <h1 class="m-4"><b>Доставка</b></h1>
                 </div>
-                <div>
-                    <ul>
-                        <li>Самовывоз: бесплатно</li>
-                        <li>
-                            г. Москва, проезд Энтузиастов, д. 19, строение 13
-                        </li>
-                        <li>Доставка по Москве (в пределах МКАД): 4500 руб.</li>
-                        <li>
-                            Московская область (за пределами МКАД): 4500 руб. +
-                            40 руб. за каждый километр
-                        </li>
-                        <li>
-                            Доставка крупногабаритных грузов по России - через
-                            транспортные компании (ПЭК, Деловые линии)
-                        </li>
-                    </ul>
+                <div class="row mx-auto">
+                    <div class="col-md-6 col-lg-6">
+                        <ul class="text">
+                            <li>Самовывоз: бесплатно</li>
+                            <li>
+                                г. Москва, проезд Энтузиастов, д. 19, строение
+                                13
+                            </li>
+                            <li>
+                                Доставка по Москве (в пределах МКАД): 4500 руб.
+                            </li>
+                            <li>
+                                Московская область (за пределами МКАД): 4500
+                                руб. + 40 руб. за каждый километр
+                            </li>
+                            <li>
+                                Доставка крупногабаритных грузов по России -
+                                через транспортные компании (ПЭК, Деловые линии)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="map col-md-6 col-lg-6">
+                        <iframe
+                            src="https://yandex.com/map-widget/v1/?um=constructor:3799ce2aad00c38263b147275d471c71286a58de0ca11f5d47c001f1546796ae&amp;source=constructor"
+                            frameborder="0"
+                        >
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="row mx-2 my-3">
+                    <div>
+                        <h1><b>Наш адрес</b></h1>
+                        <div>
+                            <p><b>E-mail:</b></p>
+                            <p>avkavkavk@mail.ru</p>
+                            <p><b>Почтовый адрес:</b></p>
+                            <p>111024, г. Москва, а/я 126</p>
+                            <p><b>Адрес офиса и склада:</b></p>
+                            <p>
+                                г. Москва, проезд Энтузиастов, д. 19, строение
+                                13
+                            </p>
+                            <p><b>Время работы офиса:</b></p>
+                            <p>
+                                пн - чт 9:00 - 17:00<br />
+                                пт 9:00 - 16:00
+                            </p>
+                            <p><b>Время работы склада:</b></p>
+                            <p>пн-пт 9:00 - 17:00</p>
+                            <p class="text-secondary">
+                                * По готовому комплекту документов продукцию
+                                можно получить с 8.00 до 19.00
+                            </p>
+                            <h1><b>Телефоны отдела продаж:</b></h1>
+                            <p>
+                                <b>+7 (985) 415-65-47, (495) 730-63-98</b> -
+                                Соловьянов Алексей Васильевич
+                            </p>
+                            <p>
+                                <b>+7 (916) 200-84-12, (495) 510-66-83</b> -
+                                Мальгин Андрей Сергеевич
+                            </p>
+                            <p>
+                                <b>+7 (495) 645-35-14</b> - Иванов Иван
+                                Николаевич
+                            </p>
+                            <p>
+                                <b>+7 (916) 553-23-72, (495) 543-95-78</b> -
+                                Зарицкий Евгений Анатольевич
+                            </p>
+                            <p>
+                                <b>+7 (985) 820-65-32, (495) 229-50-48</b> -
+                                Корчагов Сергей Антонович
+                            </p>
+                            <p>
+                                <b>+7 (916) 751-75-04, (495) 228-17-11</b> -
+                                Тонков Константин Сергеевич
+                            </p>
+                            <p>
+                                <b>+7 (910) 405-42-28, (495) 741-02-78</b> -
+                                Гребенников Владимир Олегович
+                            </p>
+                            <p>
+                                <b>+7 (915) 130-66-14, (495) 645-78-93</b> -
+                                Авилов Станислав Александрович
+                            </p>
+                            <p>
+                                <b>+7 (985) 070-15-03, (495) 730-35-90</b> -
+                                Гугучкин Валерий Викторович
+                            </p>
+                            <p>
+                                <b>+7 (916) 720-23-00, (495) 231-20-94</b> -
+                                Дудыка Максим Михайлович
+                            </p>
+                            <h1>
+                                <b>Сотрудник по работе с физическими лицами:</b>
+                            </h1>
+                            <p>
+                                <b>+7 (985) 021-15-71 </b>- Махович Руслан
+                                Нариманович
+                            </p>
+                            <p>В случае претензий по качеству обслуживания:</p>
+                            <p>
+                                <b>+7 (916) 772-70-32, (495) 645-15-24 </b>-
+                                Мальгин Сергей Николаевич - Начальник отдела
+                                менеджмента
+                            </p>
+                        </div>
+
+                        <div
+                            class="container-fluid d-flex justify-content-center"
+                        >
+                            <iframe
+                                src="https://widgets.dellin.ru/calculator?group1=disabled&group3=hide&group4=hide&group5=disabled&derival_
+point=7700000000000000000000000&derival_to_door=on&arrival_to_door=on&disabled_calculation=on&insuran
+ce=0&package=1"
+                                scrolling="no"
+                                frameborder="0"
+                                width="332"
+                                height="250"
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h1><b>Реквизиты</b></h1>
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <td>Наименование предприятия</td>
+                                <td>ООО «Химия ХХI век»</td>
+                            </tr>
+
+                            <tr>
+                                <td>ИНН</td>
+                                <td>7704388537</td>
+                            </tr>
+
+                            <tr>
+                                <td>КПП</td>
+                                <td>770401001</td>
+                            </tr>
+
+                            <tr>
+                                <td>ОГРН</td>
+                                <td>1177746058104</td>
+                            </tr>
+
+                            <tr>
+                                <td>ОКПО</td>
+                                <td>06398239</td>
+                            </tr>
+
+                            <tr>
+                                <td>ОКВЭД</td>
+                                <td>46.12</td>
+                            </tr>
+
+                            <tr>
+                                <td>Юридический адрес</td>
+                                <td>
+                                    119146 г. Москва, Фрунзенская наб. д.№30,
+                                    строение 5, помещение 4
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Полное наименование банка</td>
+                                <td>
+                                    ООО Московский Инвестиционный Банк «ДАЛЕНА»
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Адрес банка</td>
+                                <td>
+                                    111024, г. Москва, шоссе Энтузиастов, д.17,
+                                    стр.1
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>БИК</td>
+                                <td>044525371</td>
+                            </tr>
+
+                            <tr>
+                                <td>Корреспондирующий счет</td>
+                                <td>30101810845250000371</td>
+                            </tr>
+
+                            <tr>
+                                <td>Расчетный счет</td>
+                                <td>40702810900000002037</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
