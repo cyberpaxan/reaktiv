@@ -3,6 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -14,15 +20,21 @@
             integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
             crossorigin="anonymous"
         ></script>
-        <link rel="stylesheet" href="styles.css" />
-        <title>Document</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <title>О компании</title>
     </head>
     <body class="d-flex flex-column vh-100">
         <nav
             class="navbar navbar-expand-xxl bg-body-tertiary d-flex align-items-center"
         >
             <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html">Компонент-Реактив</a>
+                <a class="navbar-brand m-1" href="/index.html"
+                    ><img
+                        src="/assets/logo.png"
+                        class="navbar-brand"
+                        width="150"
+                /></a>
+
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -39,8 +51,9 @@
                         <a class="nav-link active" href="/pages/delivery.html"
                             >Доставка</a
                         >
-                        <a class="nav-link active" href="/pages/about.html"
-                            >О компании</a
+
+                        <a class="nav-link active" href="/pages/contacts.html"
+                            >Контакты</a
                         >
                         <a class="nav-link" href="/pages/subpages/orgrast.html"
                             >Органические растворители</a
@@ -109,13 +122,67 @@
                                 </li>
                             </ul>
                         </div>
-                        <button type="button" class="btn btn-danger">
+
+                        <a
+                            type="button"
+                            class="btn btn-danger"
+                            href="/assets/prices.pdf"
+                        >
                             Скачать каталог
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <div class="row mx-2 my-3 content">
+            <div class="col-md-8 mx-auto">
+                <div>
+                    <h1 class="m-3 text-center"><b>О компании</b></h1>
+                </div>
+                <div>
+                    <ul>
+                        <li>Работаем с 1988 года</li>
+                        <li>
+                            Лидер рынка производителей высокочистых реактивов
+                        </li>
+                        <li>
+                            Производим квалификации от технических до эталонных
+                            и сухих
+                        </li>
+                        <li>Более 10000 потребителей</li>
+                        <li>Репутация, проверенная временем</li>
+                    </ul>
+                </div>
+                <hr />
+                <div>
+                    С 1988 года ООО «Компонент-Реактив» специализируется на
+                    обеспечении рынка аналитической химии и в разных отраслях
+                    промышленности реактивами высших квалификаций (Ч, ЧДА, ХЧ,
+                    ОСЧ, ХРОМ, СП, Э, Dry). На настоящий момент мы работаем
+                    более с чем 10000 потребителями, которые расположены по всей
+                    территории РФ. Мы производим высокочистые реактивы в
+                    товарных объемах 100 тонн/мес. По каждому наименованию
+                    продукции могут быть достигнуты технические характеристики
+                    от показателей технического сырья до эталонных – с уровнем
+                    выше Государственных Стандартных Образцов. В этих диапазонах
+                    мы предлагаем как установленные квалификации, так и новые,
+                    со специальными параметрами. Стандартные квалификации
+                    выпускаются по ГОСТам и ТУ. Сегодня ООО «Компонент-реактив»
+                    является одним из лидеров по товарному выпуску высокочистых
+                    реактивов с гарантируемыми показателями качества,
+                    удовлетворяет потребность экологов, аналитиков,
+                    природоохранной, нефтегазовой и других отраслей в реактивах
+                    современного уровня со стабильными техническими параметрами
+                    в разных партиях. Заказывая у нас, Вы можете не переживать,
+                    что товар окажется ненадлежащего качества, как это часто
+                    бывает у недобросовестных компаний в погоне за прибылью.
+                    30-летняя репутация компании, система контроля качества и
+                    уровень ответственности гарантируют удовлетворение
+                    потребностей Вашего производства.
+                </div>
+            </div>
+        </div>
 
         <footer class="footer mt-auto">
             <div class="container p-2 text-center">
